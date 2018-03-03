@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Chiers</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="left-content">
+			<div class="logo">
+			</div>
+			<h2>Mobile template</h2>
+			<p>Chiers is a responsive template for mobile devices and tablet.</p>
+			<h3>Scan and test on your device</h3>
+			<div class="qr-block">
+				<img src="images/qr-code.gif" alt=""/>
+			</div>
+			<h3>Or use this link:</h3>
+			<a href="http://thechiers.github.io/theme/">http://thechiers.github.io/theme/</a>
+		</div>
+	    <div class="emulator">
+	    	<div class="loader">
+	    		<img src="images/loader.gif">
+	    	</div>
+	        <div class="body-emulator">
+	            <iframe src="theme/index.html" frameborder="0"></iframe>
+	        </div>
+	    </div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			setTimeout(function(){
+				$('.loader').hide();
+			}, 2500);
+		});
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-66286026-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
